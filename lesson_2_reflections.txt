@@ -9,3 +9,8 @@ The staging area is a temporary store whereas the repository and working directo
 permanent.  The value it brings is that it handles marshalling all of the files together into
 a commit for you - you just have to worry about one file at a time.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+Simply by using git diff --staged.  This will separate out the changes that you have
+currently in your files with those that you wish to commit.
+
