@@ -1,0 +1,48 @@
+Q:How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It took out all of the lines that were the same, allowing you to focus on the
+actual difference.  More specifically, looked just at the differences
+between a file that we know worked and one that had a bug.
+
+Q:How could having easy access to the entire history of a file make you a
+more efficient programmer in the long term?
+
+You will be able to look at the precise changes over time from any version
+to understand where changes were made that may have caused errors.  Also,
+if you are working with others, then you can see their changes as well.
+
+Q:What do you think are the pros and cons of manually choosing when to create a
+commit, as you do in Git, vs having versions automatically saved, like Google
+Docs does?
+
+The pros are that commits can be based on logical pieces of functionality,
+while the cons are that individuals are free to ignore this and submit commits
+that are either too large or too small.
+
+Q:Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file
+separately?
+
+Git, among other things, understands that development of a particular feature
+or program requires multiple, linked files.  For Google Docs, there isn't a need
+to presume such linkages.
+
+Q:How can you use the commands git log and git diff to view the history of files?
+
+With git log you can see a high level summary of commits and changes to files
+in the repository, and with git diff you can zoom in and see the specific
+changes made to each of those files.
+
+Q:How might using version control make you more confident to make changes that
+could break something?
+
+You can think of commits as save points.  You know that you can make all sorts
+of changes that could break stuff and always revert to a previous working
+version.
+
+Q:Now that you have your workspace set up, what do you want to try using git
+for?
+
+Tracking changes!
+
