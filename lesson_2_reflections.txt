@@ -20,3 +20,10 @@ If I wanted to try something experimental, but also wanted to continue to make
 changes to the non-experimental code, then branching would be prefect.  The
 branches would allow me to track changes for each of the individual histories,
 and merge them together if I so chose.
+
+How do the diagrams help you visualize the branch structure?
+
+While a single branch my be easy to visualize without any aid, I can imagine
+with more complex branching that diagrams would be necessary to understand
+the structure as well as how to integrate various features.
+
