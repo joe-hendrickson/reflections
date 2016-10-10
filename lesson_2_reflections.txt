@@ -32,3 +32,16 @@ While a single branch my be easy to visualize without any aid, I can imagine
 with more complex branching that diagrams would be necessary to understand
 the structure as well as how to integrate various features.
 
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+After merging two branches, you have just one branch.  This is why it is
+represented the way it is in the diagram.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+The benefits are that even simple merge's can take time to follow, so if git is
+able to resolve merges automatically then so much the better.  However, it is
+not actually able to understand the code itself, and so you will always want to
+test what git has done.
