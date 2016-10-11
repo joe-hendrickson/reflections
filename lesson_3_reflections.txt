@@ -1,0 +1,7 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+The first reason is when you are collaborating with someone or a group of people.  The
+second would be whenever you want to have your work available from any system.  Come
+to think of it, I'm not sure why you wouldn't want to have a remote repository - seems
+like more interesting answers if you ask the question "when would you want to keep all
+of your work local instead of using a remote repository"?
